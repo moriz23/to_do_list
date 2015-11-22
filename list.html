@@ -26,31 +26,36 @@
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="col-md-4">
-        <div class="panel-heading">
-          <h1>Add List Item</h1>
-       </div>  
-        <form class="form-inline">
-          <div class="form-group">
-            <input type="text" class="form-control" id="newItem" placeholder="Add list item here" autocomplete="off" />
-          </div>  
-          <button type="submit" class="btn btn-success">Add</button>
-        </form>
-      </div>
-      <div class="col-md-7 col-md-offset-1">
-        <div class="">
-          <table class="table table-striped table-bordered">
-          <tr>
-          <th colspan="3"><h1></h1></th>  
-          </tr>
-          <tr>
-            <td>List Items</td>
-            <td class="complete">Completed</td>
-            <td class="delete">Delete</td>
-          </tr>
-          </table>
+        <div class="input">
+        <div class="panel panel-default">
+          <div class="panel-heading"><h1>Add List Item</h1></div> 
+            <div class="panel-body"> 
+              <form class="form-inline">
+              <div class="form-group">
+              <input type="text" class="form-control" id="newItem" placeholder="Add list item here" autocomplete="off" />
+              </div>  
+              <button type="submit" class="btn btn-success">Add</button>
+              </form>
+            </div>
+        </div>
         </div>
       </div>
-     </div>
+        </div>
+        <div class="col-md-7 col-md-offset-1">
+          <div class="addedList">
+            <table class="table table-striped table-bordered">
+            <tr>
+            <th colspan="3"><h1></h1></th>  
+            </tr>
+            <tr>
+              <td>List Items</td>
+              <td class="complete">Completed</td>
+              <td class="delete">Delete</td>
+            </tr>
+            </table>
+          </div>
+        </div>
+    </div>
   </div>
 
 

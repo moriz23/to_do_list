@@ -1,8 +1,9 @@
 /* Navbar */
 
 .navbar-default {
-  background-color: black;
+  background-color: #bfd5d5;
   min-height: 100px;
+  border-style: none;
 }
 
 .navbar-brand {
@@ -15,7 +16,69 @@
 }
 
 #listName {
-  background-color: black;
+  background-color: #fff;
+}
+
+.btn-primary {
+  background-color: #132330;
+}
+
+.btn-primary:hover {
+  background-color: orange;
+}
+
+/* Body */
+
+body {
+  background-color: #132330;
 }
 
 /* List Item Input */
+
+h1 {
+  padding-left: 100px;
+  color: white;
+}
+
+.panel > .panel-heading {
+  background-color: #bfd5d5;
+}
+
+.panel-default {
+  background-color: #132330;
+}
+
+.form-group {
+  padding-left: 100px;
+}
+
+.input {
+  padding-top: 40px;
+}
+
+#newItem {
+  background-color: #bfd5d5;
+}
+
+/* Table */
+
+.addedList {
+  padding-top: 40px;
+}
+
+th, td {
+  text-align: center;
+}
+
+th {
+  background-color: #bfd5d5;
+  height: 100px;
+}
+
+.complete {
+  width: 150px;
+}
+
+.delete {
+  width: 150px;
+}
