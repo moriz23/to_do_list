@@ -66,6 +66,12 @@ h1 {
   padding-top: 40px;
 }
 
+td {
+  background-color: #132330;
+}
+
+
+
 th, td {
   text-align: center;
 }
