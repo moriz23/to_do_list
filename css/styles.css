@@ -1,0 +1,21 @@
+/* Navbar */
+
+.navbar-default {
+  background-color: black;
+  min-height: 100px;
+}
+
+.navbar-brand {
+  padding-left: 650px;
+  padding-top: 40px;
+}
+
+.navbar-form {
+  padding-top: 40px;
+}
+
+#listName {
+  background-color: black;
+}
+
+/* List Item Input */
