@@ -7,15 +7,21 @@
 </head>
 <body>
   <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <h1>To Do List</h1>
-    </div>
-    <form class="navbar-form navbar-right" role="search">
-      <div class="form-group">
-        <input id="topic" type="text" class="form-control" placeholder="Enter your list name">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="navbar-header">
+          <div class="navbar-brand">To Do List</div>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" id="listName" placeholder="Create List Name">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
       </div>
-      <button type="submit" class="btn btn-default">Submit List Name</button>
-    </form>
+    </div>
   </nav>
   <div class="container-fluid">
     <div class="row-fluid">
