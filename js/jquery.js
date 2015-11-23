@@ -9,9 +9,9 @@ $(document).ready(function() {
     console.log("button works");
 
     var listName = $("#listName").val();
-    var listTitle = $("<h3>");
+    var listTitle = $("<h2>");
     var deleteBtn = $("<button>").addClass("btn btn-danger").append("Delete");
-    var deleteTitle = $("<h3>").append(deleteBtn);
+    var deleteTitle = $("<h2>").append(deleteBtn);
 
     listTitle.append(listName).append(deleteTitle);
     $("th").append(listTitle);
