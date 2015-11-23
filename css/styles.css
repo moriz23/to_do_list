@@ -7,8 +7,16 @@
 }
 
 .navbar-brand {
-  padding-left: 650px;
+  padding-left: 500px;
   padding-top: 40px;
+}
+
+#head {
+  font-family: 'Indie Flower', cursive;
+  color: orange;
+  font-size: 7em;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #132330;
 }
 
 .navbar-form {
@@ -17,10 +25,14 @@
 
 #listName {
   background-color: #fff;
+  font-family: 'Indie Flower', cursive;
+  color: orange;
 }
 
 .btn-primary {
   background-color: #132330;
+  font-family: 'Indie Flower', cursive;
+  color: orange;
 }
 
 .btn-primary:hover {
@@ -36,8 +48,12 @@ body {
 /* List Item Input */
 
 h1 {
-  padding-left: 100px;
-  color: white;
+  padding-left: 50px;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #132330;
 }
 
 .panel > .panel-heading {
@@ -58,6 +74,8 @@ h1 {
 
 #newItem {
   background-color: #bfd5d5;
+  font-family: 'Indie Flower', cursive;
+  color: orange;
 }
 
 /* Table */
@@ -68,6 +86,9 @@ h1 {
 
 td {
   background-color: #132330;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  color: orange;
 }
 
 
@@ -77,8 +98,15 @@ th, td {
 }
 
 th {
-  background-color: #bfd5d5;
-  height: 100px;
+  background-color: #bfd5d5; 
+  font-family: 'Indie Flower', cursive;
+  color: orange;
+}
+
+h2 {
+  font-size: 40px;
+  text-shadow: 2px 2px 5px #132330;
+
 }
 
 .complete {
