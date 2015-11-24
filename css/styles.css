@@ -7,7 +7,6 @@
 }
 
 .navbar-brand {
-  padding-left: 500px;
   padding-top: 40px;
 }
 
@@ -62,6 +61,7 @@ h1 {
 
 .panel-default {
   background-color: #132330;
+  /*position: fixed; want to use this but it is not responsive */
 }
 
 .form-group {
