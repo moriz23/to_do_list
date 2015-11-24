@@ -8,6 +8,8 @@ $(document).ready(function() {
     e.preventDefault();
     console.log("button works");
 
+    $(".btn-primary").attr("disabled", "disabled");//disables submit button
+
     var listName = $("#listName").val();
     var listTitle = $("<h2>");
     var deleteBtn = $("<button>").addClass("btn btn-danger").append("Delete");
@@ -17,7 +19,9 @@ $(document).ready(function() {
     $("th").append(listTitle);
 
     $("#listName").val("").focus();
+
   });
+
 
   //Clicking add button
   $(".btn-success").on("click", function(e) {
@@ -63,6 +67,8 @@ $(document).ready(function() {
   //Deleting added row
   $("table").on("click", ".btn-danger", function() {
     $(this).parent().parent().remove();
+    $(".btn-primary").removeAttr("disabled");//submit button activated once title is deleted.
+
   });
 
   //Strike Through 
